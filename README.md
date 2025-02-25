@@ -1,6 +1,6 @@
-# DeskHider
+# DeskHiderM
 
-A straightforward program written in AutoHotkey (AHK) that empowers you to seamlessly toggle the visibility of your desktop icons with just a double-click. 
+A straightforward program written in AutoHotkey (AHK) that empowers you to seamlessly toggle the visibility of your desktop icons with a middle mouse click. This is a fork of [DeskHider](https://github.com/iandiv) that hides the desktop icons with a double-click. As my desktop double-click is used by other software, I decided to make a minor adjustment and use a middle mouse click instead.
 
 ![DeskHider](https://github.com/iandiv/DeskHider/assets/28383248/3ce997dd-99c8-4516-8107-4ce71978bb3e)
 
