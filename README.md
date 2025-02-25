@@ -14,10 +14,10 @@ Double click on desktop
 
  | Release|
  | ----------- |
- | [DeskHider v1.0.0](https://github.com/iandiv/DeskHider/releases) |
+ | [DeskHiderM v1.0.0](https://github.com/RCH-9/DeskHiderM/releases) |
 
 ## Run on Startup
-- Right click DeskHider.exe then create a shorcut.
+- Right click DeskHiderM.exe then create a shorcut.
 - Open windows Run (Win + R) then paste code below.
 
 ``` 
@@ -26,7 +26,7 @@ shell:startup
 
 ![image](https://github.com/iandiv/DeskHider/assets/28383248/7d53abcc-3eaa-46bb-a638-80084b63f2c7)
 
-- Paste the Deskhider shorcut.
+- Paste the DeskhiderM shorcut.
 
 
 
