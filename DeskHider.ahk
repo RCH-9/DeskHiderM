@@ -1,4 +1,4 @@
-﻿#SingleInstance, Force ; Optional: Prevent multiple instances
+#SingleInstance, Force ; Optional: Prevent multiple instances
 #Persistent ; Optional: Keep the script running
 
 
@@ -8,24 +8,19 @@ Menu, Tray, Add, Exit  , QuitScript
 
 
 ; Set a custom tooltip for the system tray icon
-Menu, Tray, Tip , DeskHider
-
-; Specify the main script filename for compilation:
-#Include C:\Users\Ian Divinagracia\Documents\AutoHotkey\Portable\DeskHider.ahk
-
-
+Menu, Tray, Tip , DeskHiderM
 
 #If IsDesktopUnderMouse()
-~LButton::
-	LButton_presses++
-	if (LButton_presses=2)
+~MButton::
+	MButton_presses++
+	if (MButton_presses=1)
 		if (!IsObject(GetDesktopIconUnderMouse()) or DesktopIconsIsShow=0)
 			DesktopIconsIsShow:=HideOrShowDesktopIcons()
-	SetTimer, KeyLButton, -300
+	SetTimer, KeyMButton, -300
 return
 
-KeyLButton:
-	LButton_presses := 0
+KeyMButton:
+	MButton_presses := 0
 return
 
 IsDesktopUnderMouse()
